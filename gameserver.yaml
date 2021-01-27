@@ -16,7 +16,7 @@
 apiVersion: "agones.dev/v1"
 kind: GameServer
 metadata:
-  generateName: "unity-simple-server-"
+  generateName: "supertrucks-server-"
 spec:
   ports:
   - name: default
@@ -25,8 +25,8 @@ spec:
   template:
     spec:
       containers:
-      - name: unity-simple-server
-        image: registry.hub.docker.com/meltdowninteractive/unity-simple-image3
+      - name: supertrucks-server
+        image: hub.docker.com/repository/docker/meltdowninteractive/supertrucks-server
       resources:
         requests:
           memory: "128Mi"
