@@ -29,8 +29,8 @@ spec:
         image: registry.hub.docker.com/meltdowninteractive/supertrucks-server
         resources:
           requests:
-            memory: "128Mi"
-            cpu: "128m"
+            memory: "800Mi"
+            cpu: "256m"
           limits:
-            memory: "128Mi"
-            cpu: "128m"
+            memory: "800Mi"
+            cpu: "256m"
