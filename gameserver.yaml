@@ -26,7 +26,7 @@ spec:
     spec:
       containers:
       - name: unity-simple-server
-        image: registry.hub.docker.com/meltdowninteractive/unity-simple-image2
+        image: registry.hub.docker.com/meltdowninteractive/unity-simple-image3
       resources:
         requests:
           memory: "128Mi"
