@@ -26,7 +26,7 @@ spec:
     spec:
       containers:
       - name: supertrucks-server
-        image: hub.docker.com/repository/docker/meltdowninteractive/supertrucks-server
+        image: registry.hub.docker.com/meltdowninteractive/supertrucks-server
       resources:
         requests:
           memory: "128Mi"
